@@ -27,7 +27,7 @@
     <script>
         async function go()
         {
-                let response = await fetch("http://lihuoqin.com/test/list.php");
+                let response = await fetch("https://lihuoqin.com/test/list.php");
                 let re = await response.json();
                 new Vue({el: '#app', data: {arr:re}});
         }
